@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+<!-- 头部文件 -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link rel="stylesheet" href="css/lightbox.css"> 
+
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script> 
+ <script>
+			
+			
+			
+			$(function(){
+					var vv=	document.getElementById("vid");
+					 	vv.ontimeupdate=function(){
+			   		$("#cur").html(this.currentTime);
+			   	};
+					
+					
+			   $(":button").click(function(){
+			   
+			vv.play();
+			   	$("#len").html(vv.duration);
+			   	
+			  
+			   });
+			});
+			
+		</script>
+<!-- //js -->
+
+
+<!-- //web-fonts --> 
+</head>
+<body>
+	<!-- 头部导航区 -->
+	<div class="top-nav">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar"> 
+						<li><a href="index.html" class="w3ls-hover"><span data-letters="主页">主页</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#about" class="w3ls-hover"><span data-letters="关于我">关于我 </span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#skill" class="w3ls-hover"><span data-letters="掌握技能">掌握技能</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#experience" class="w3ls-hover"><span data-letters="项目经验">项目经验 </span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="教育背景">教育背景 </span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#work" class="w3ls-hover"><span data-letters="个人荣誉">个人荣誉</span></a></li>
+						<!--<li><a href="#" data-toggle="modal" data-target="#contact" class="w3ls-hover"><span data-letters="视频介绍">视频介绍 </span></a></li> -->
+						<li><a class="w3ls-icon" href="#"><span class="glyphicon glyphicon-save"></span></a></li> 
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- //top-nav -->
+	
+	<!-- banner --> 
+	<div class="video" data-vide-bg="video/home-bg">  
+		<div class="container">
+			<div class="banner-text agileinfo-text">  
+				<h1>张玉红</h1> 
+				<h6>Web前端& Java开发工程师</h6>
+			</div>  
+		</div>	
+	</div>	
+	<script src="js/jquery.vide.min.js"></script>
+	<!-- //banner --> 
+	<!-- modal-about -->
+	<div class="modal fade modal-about" id="about" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">关于我</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="about"> 
+						<div class="col-md-4 about-left ">
+							<img src="images/img1.jpeg" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-md-8 about-right wthree">
+							<h3>您好, 我是 <span>张玉红 </span></h3>
+							<h4>Web前端& Java开发工程师</h4>
+							<ul class="address">
+								<li>
+									<ul class="agileits-address-text ">
+										<li><b>生日</b></li>
+										<li>1995-05-16</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>手机 </b></li>
+										<li>18292843526</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>地址 </b></li>
+										<li>西安财经学院长安校区</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>邮箱 </b></li>
+										<li><a href="zhangyuhong516@126.com"> zhangyuhong516@126.com</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="agileits-address-text">
+										<li><b>GitHub </b></li>
+										<li><a href="https://github.com/zhangyuhong516">https://github.com/zhangyuhong516</a></li>
+									</ul>
+								</li>
+							</ul> 
+						</div> 
+						<div class="clearfix"> </div> 
+						<div class="about-text agileits-w3layouts"> 
+							<p>3年组织委员经历，多次策划组织活动经历，专业成绩优秀，具备较强学习能力和适应能力，有团队精神，能快速融入新团队；最大的特点是工作负责任，进取心强，同时也擅于思考，经常能够发现创新点和解决方案.</p>
+							<p class="agile-br"> 我也有自己的BLOG专门分享IT技术知识，希望从事目前熟悉的软件开发工作，对于软件测试、安卓开发都很有兴趣，也希望以后可以进行相关领域的研究  </p>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-about -->
+	<!-- modal-skills -->
+	<div class="modal fade modal-skills" id="skill" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">我的技能</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="skills"> 
+						<div class="col-md-6 bar-grids">
+							<h4><span class="glyphicon glyphicon-cog"></span> Web前端 </h4>
+							<h6>Html5  <span> 80% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 80%">
+								</div>
+							</div>
+							<h6>Javascript & JQuery <span> 76% </span></h6>
+							<div class="progress  w3-agile">
+								<div class="progress-bar progress-bar-striped active" style="width: 76%">
+								</div>
+							</div>
+							<h6>BootStrap<span>90% </span></h6>
+							<div class="progress  w3-agile">
+								<div class="progress-bar progress-bar-striped active" style="width: 90%">
+								</div>
+							</div>
+							<h6>Photoshop <span> 65% </span></h6>
+							<div class="progress  w3-agile">
+								<div class="progress-bar progress-bar-striped active" style="width: 65%">
+								</div>
+							</div>
+						</div> 
+						<div class="col-md-6 bar-grids  w3-agile">
+							<h4><span class="glyphicon glyphicon-briefcase"></span> Java 开发 </h4>
+							<h6>Java编程基础<span> 85% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 85%">
+								</div>
+							</div>
+							<h6>主流开发框架SSM<span> 75% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 75%">
+								</div>
+							</div>
+							<h6>Apache & Tomcat配置<span>90% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 90%">
+								</div>
+							</div>
+							<h6>MySQL & Oracle<span>83% </span></h6>
+							<div class="progress prgs-w3agile-last">
+								<div class="progress-bar progress-bar-striped active" style="width: 86%">
+								</div>
+							</div> 
+						</div>
+						<div class="clearfix"> </div>	
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-skills -->
+	<!-- modal-experience -->
+	<div class="modal fade modal-experience" id="experience" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">项目经验</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="experience w3-agileits-info">  
+						<div class="experience-grids experience-grids-btm">
+							<div class="experience-left">
+								<h3>2017.07-2017.09 </h3>
+								<h5>Tasty Cake网上购物商城 </h5>
+							</div>
+							<div class="experience-right">
+								<h4>负责用户模块、商品模块和前端显示界面的实现</h4>
+								<p>该系统是一个B2C模式的电子商务系统。包括用户、商品信息、订单、财务、公告等模块.整个项目使用SSM三大框架整合开发，使程序更符合MVC设计模式。对未登录和非法登录访问进行拦截时用了自定义拦截器；进行客户端验证时使用JavaScript；在进行分页显示时，调用存储过程提供效率； 配置dbcp连接池，减少了连接创建的时间； 在实现客户统计时，使用JFreeChart生成饼状图，更加清晰的展现出客户统计的结果； 用jquery的post实现ajax局部刷新技术，在创建新用户时验证用户名是否重复。</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+						<div class="experience-grids experience-grids-btm">
+							<div class="experience-left">
+								<h3>2017.04 - 2017.05</h3>
+								<h5>CMS(内容管理系统)</h5>
+							</div>
+							<div class="experience-right">
+								<h4>个人开发,负责所有的功能实现和界面设计</h4>
+								<p>CMS系统大致分为门户网站、会员自服务系统及后台管理系统三个部分的功能。本项目采用jsp servlet,模拟Spring IOC 从配置文件读取bean,利用动态代理和反射机制,自动注入相应的对象,引入apache开源commons-beanutils.jar、commons-fileupload-1.2.2.jar等jar包对数据类型转换和文件上传进行处理</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-experience -->
+	<!-- modal-education -->
+	<div class="modal fade modal-experience" id="education" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header w3layouts">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">教育背景</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="experience">  
+						<div class="experience-grids">
+							<div class="experience-left">
+								<h3>2014<span>(本科4年)</span> </h3>
+								<h5> 西安财经学院</h5>
+							</div>
+							<div class="experience-right">
+								<h4>主修课程</h4>
+								<p>JAVA语言程序设计、java EE、SSM框架、数据库原理、MySQL、Oracle、JavaScript、HTML、CSS、XML、数据结构、计算机网络、C语言程序设计、安卓</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+						<div class="experience-grids experience-grids-btm">
+							<div class="experience-left">
+								<h3>2016<span>(1年实训经历)</span></h3>
+								<h5> Oracle(甲骨文)授权教育中心</h5>
+							</div>
+							<div class="experience-right">
+								<h4>实训总结</h4>
+								<p>在参加Oracle实训的过程中，本人先后参与了个人项目开发以及团队项目开发，运用所学技术，解决了项目开发中的问题。在此期间，完成了Tasty Cake网上购物商城，北斗星高考志愿智能填报系统和CMS（内容管理系统）的项目实践。
+                                                                       熟练掌握了Java语言，MySQL数据库，熟悉Oracle数据库、Java Web开发，SSM三大框架技术。</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-education -->
+	<!-- modal-gallery -->
+	<div class="modal fade modal-gallery" id="work" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">个人荣誉</h4> 
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="gallery"> 
+						<div class="gallery-row"> 
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley">
+										<img src="images/g1.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g2.jpg" data-lightbox="example-set" data-title="Sed ut perspiciatis unde omnis iste natus error sit">
+										<img src="images/g2.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g3.jpg" data-lightbox="example-set" data-title="Eaque ipsa quae ab illo inventore veritatis et quasi">
+										<img src="images/g3.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g4.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley">
+										<img src="images/g4.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g5.jpg" data-lightbox="example-set" data-title="Sed ut perspiciatis unde omnis iste natus error sit">
+										<img src="images/g5.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley">
+										<img src="images/g6.jpg" class="img-responsive zoom-img" alt=""/>
+										<div class="view-caption">
+											<h5>View+</h5> 
+										</div>
+									</a>
+								</div>
+							</div>
+							
+							
+							
+							<div class="clearfix"> </div>
+						</div>
+						<!--  light box js -->
+						<script src="js/lightbox-plus-jquery.min.js"> </script> 
+						<!-- //light box js-->  
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-gallery -->
+	<!-- modal-contact -->
+	<div class="modal fade modal-contact" id="contact" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content"> 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">视频show</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="contact"> 
+						<div class="contact-w3lsrow">
+							
+							<div class="col-md-8  w3-agileits">
+								<video  id="vid" controls="controls">
+				  
+  				<source src="video/movie2.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="col-md-2  w3-agileits"></div>
+							
+			
+						
+							<div class="clearfix"> </div>
+						</div>  
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<!-- //modal-contact --> 
+	
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<p>欢迎进入<a target="_blank" href="http://blog.csdn.net/zhangyuhong516/">梦已不遥远</a>的小世界</p>
+		</div>
+	</div>
+	<!-- //footer --> 
+	
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
